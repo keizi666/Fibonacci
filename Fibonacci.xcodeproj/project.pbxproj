@@ -14,6 +14,7 @@
 		A68B4727210ED81100900AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68B4725210ED81100900AB6 /* LaunchScreen.storyboard */; };
 		A68B4732210ED81200900AB6 /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B4731210ED81200900AB6 /* FibonacciTests.swift */; };
 		A68B473D210ED81200900AB6 /* FibonacciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B473C210ED81200900AB6 /* FibonacciUITests.swift */; };
+		A68B474B210ED8DB00900AB6 /* FibonacciController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B474A210ED8DB00900AB6 /* FibonacciController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A68B4738210ED81200900AB6 /* FibonacciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68B473C210ED81200900AB6 /* FibonacciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciUITests.swift; sourceTree = "<group>"; };
 		A68B473E210ED81200900AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68B474A210ED8DB00900AB6 /* FibonacciController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A68B471C210ED80E00900AB6 /* AppDelegate.swift */,
 				A68B471E210ED80E00900AB6 /* ViewController.swift */,
 				A68B4720210ED80E00900AB6 /* Main.storyboard */,
+				A68B474A210ED8DB00900AB6 /* FibonacciController.swift */,
 				A68B4723210ED81100900AB6 /* Assets.xcassets */,
 				A68B4725210ED81100900AB6 /* LaunchScreen.storyboard */,
 				A68B4728210ED81100900AB6 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				A68B471F210ED80E00900AB6 /* ViewController.swift in Sources */,
 				A68B471D210ED80E00900AB6 /* AppDelegate.swift in Sources */,
+				A68B474B210ED8DB00900AB6 /* FibonacciController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

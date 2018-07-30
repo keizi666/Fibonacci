@@ -10,16 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet var labelNumber: UILabel!
+	
+	let fibonacci = FibonacciController()
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		self.labelNumber.text = String(fibonacci.getFibonacci())
 	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
 	}
 
-
+	@IBAction func tapAddFibonacci(_ sender: Any) {
+		self.labelNumber.text = String(fibonacci.addFibonacci())
+	}
+	
+	@IBAction func tapReset(_ sender: Any) {
+		fibonacci.reset()
+		self.labelNumber.text = String(fibonacci.getFibonacci())
+	}
 }
 
